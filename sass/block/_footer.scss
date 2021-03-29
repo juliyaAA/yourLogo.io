@@ -1,0 +1,47 @@
+.footer {
+    background-color: #3d3d3d;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 51px 0 39px 32px;
+        &_box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 602px;
+            width: 100%;
+        }
+        &_logo-text {
+            margin-top: 17px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+        &_list {
+            display: flex;
+            font-size: 20px;
+            font-weight: 500;
+            li + li {
+                margin-left: 42px;
+            }
+            a:hover {
+                transition: 0.3s all;
+                color: $hov;
+            }
+        }
+    }
+    &__messenger {
+        display: flex;
+        &_icons {
+            margin-left: 27px;
+            &:first-child {
+                margin-left: 0;
+            }
+            img:hover {
+                transition: all 1s ease-out;
+                transform: scale(1.1);
+            }
+        }
+    }
+}

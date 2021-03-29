@@ -1,0 +1,538 @@
+@media (max-width: 1260px) {
+    .container {
+        padding: 0 20px;
+    }
+    header {
+        .header {
+            &__black li + li {
+                margin-left: 15px;
+            }
+            li {
+                font-size: 19px;
+            }
+            &__white li + li {
+                margin-left: 15px;
+            }
+            &__messenger_icons {
+                margin-left: 15px;
+            }
+        }
+    }
+    .main {
+        &__form {
+            padding-left: 29px;
+            label,
+            p {
+                font-size: 14px;
+            }
+            &_client {
+                max-width: 485px;
+                &-border {
+                    margin-left: 35px;
+                }
+            }
+            .width-input {
+                max-width: 376px;
+            }
+        }
+    }
+    .card__description_comments {
+        max-width: 830px;
+    }
+}
+@media (max-width: 1220px) {
+    .right img {
+        width: 900px;
+    }
+    .main {
+        &__form {
+            margin-top: 150px;
+            &_client {
+                max-width: 432px;
+            }
+            &_rent .form-address {
+                display: block;
+                margin-top: 20px;
+            }
+            &_period {
+                margin-top: 20px;
+                &-month {
+                    max-width: 88px;
+                    padding-top: 8px;
+                    font-size: 13px;
+                }
+            }
+            .width-max {
+                max-width: 100px;
+            }
+            &_budget {
+                margin-top: 25px;
+                margin-bottom: 15px;
+                &-bl label {
+                    margin-right: 13px;
+                }
+            }
+            &_client {
+                max-width: 450px;
+            }
+        }
+    }
+}
+@media (max-width: 1100px) {
+    header {
+        height: 90px;
+        padding-top: 30px;
+        .header {
+            li {
+                font-size: 17px;
+            }
+            &__messenger {
+                display: none;
+            }
+            &__black {
+                margin-right: 70px;
+            }
+        }
+    }
+    .right img {
+        width: 694px;
+    }
+    .main__form_budget-bl input[type="number"] {
+        width: 130px;
+    }
+    .card {
+        min-height: 360px;
+        &__description {
+            &_img {
+                height: auto;
+                img {
+                    width: 100%;
+                }
+            }
+            &_descr-hotel {
+                font-size: 22px;
+            }
+            &_wrap {
+                margin-top: 17px;
+            }
+            .wrap-size {
+                margin-top: 0;
+                font-size: 15px;
+            }
+            .wrap-amount {
+                font-size: 20px;
+            }
+            .wrap-text {
+                margin-top: 10px;
+            }
+            .promo {
+                margin-top: 10px;
+                &__address {
+                    padding-top: 10px;
+                    &_item {
+                        font-size: 15px;
+                    }
+                    &_distance {
+                        margin-top: 6px;
+                    }
+                }
+            }
+            &_content {
+                padding: 15px 10px 15px 25px;
+            }
+            &_contents {
+                height: 60px;
+            }
+            &_time {
+                font-size: 14px;
+                &-number {
+                    font-size: 18px;
+                }
+            }
+            &_viewing-count {
+                font-size: 18px;
+            }
+            &_comments {
+                margin-right: 8px;
+            }
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .footer__inner {
+        &_box {
+            max-width: 210px;
+        }
+        &_nav {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    .main {
+        &__form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px 20px 0 20px;
+            height: auto;
+            margin-top: 100px;
+            form {
+                display: block;
+            }
+            .form-application {
+                margin: 0;
+            }
+            &_rent {
+                margin-top: 0;
+            }
+            &_client {
+                border-top: 1px solid #aaa;
+                border-left: none;
+                margin-top: 25px;
+                min-height: 277px;
+                &-top {
+                    margin-top: 25px;
+                }
+                &-border {
+                    margin-left: 0;
+                }
+                &-item {
+                    margin-top: 35px;
+                }
+                input[type="submit"] {
+                    margin-top: 25px;
+                    right: -30px;
+                }
+            }
+        }
+        .brown {
+            margin-top: 100px;
+        }
+        .card {
+            min-height: 350px;
+            &__description {
+                &_wrap {
+                    // display: block;
+                    margin-top: 0;
+                    padding-right: 15px;
+                    &-price {
+                        // position: static;
+                        right: 15px;
+                    }
+                }
+                &_flex {
+                    padding-right: 15px;
+                }
+                &_time {
+                    font-size: 13px;
+                    &-number {
+                        font-size: 17px;
+                        margin-top: 6px;
+                    }
+                }
+                &_comments {
+                    max-width: 560px;
+                }
+            }
+        }
+    }
+    .wrapper {
+        padding: 25px 20px;
+        margin-top: 100px;
+        &__title {
+            font-size: 15px;
+            &_chat {
+                font-size: 22px;
+            }
+        }
+    }
+}
+@media (max-width: 850px) {
+    .card__description {
+        &_wrap {
+            display: block;
+            &-price {
+                position: static;
+                text-align: left;
+                margin-top: 15px;
+            }
+        }
+        &_tags-txt {
+            font-size: 13px;
+            margin-right: 10px;
+        }
+        &_img {
+            max-width: 350px;
+        }
+    }
+}
+@media (max-width: 835px) {
+    header {
+        z-index: 30;
+        &.active {
+            height: 100%;
+        }
+        .header {
+            align-items: start;
+            nav {
+                display: none;
+                margin: 0 auto;
+                top: 47px;
+                position: relative;
+                text-align: center;
+                width: 100%;
+                order: 1;
+                transition: 0.3s all;
+            }
+            &__black {
+                margin: 0;
+            }
+            ul {
+                display: block;
+                li {
+                    margin: 0;
+                    padding: 10px 0;
+                    a {
+                        color: $blaсk;
+                    }
+                }
+            }
+        }
+        .burger-menu {
+            display: block;
+            width: 30px;
+            cursor: pointer;
+            div {
+                height: 4px;
+                background-color: $blaсk;
+                border-radius: 2px;
+                transition: all 0.3s;
+                & + div {
+                    margin-top: 7px;
+                }
+            }
+            &.active {
+                .first-line {
+                    transform: translateY(0) rotate(-45deg);
+                    width: 0;
+                    height: 0;
+                }
+                .second-line {
+                    transform: rotate(45deg);
+                }
+                .third-line {
+                    transform: translateY(-11px) rotate(-45deg);
+                }
+            }
+        }
+    }
+}
+@media (max-width: 750px) {
+    .card__description {
+        &_descr {
+            &-hotel {
+                font-size: 19px;
+            }
+            &-category img {
+                width: 15px;
+            }
+        }
+        &_tags img {
+            width: 20px;
+        }
+        .wrap-size {
+            font-size: 14px;
+        }
+        .wrap-text {
+            font-size: 13px;
+        }
+        .wrap-amount {
+            font-size: 17px;
+        }
+    }
+    .promo__address_item {
+        font-size: 13px;
+    }
+}
+@media (max-width: 680px) {
+    .main .card__description {
+        &_comments {
+            font-size: 13px;
+        }
+        &_tags {
+            display: none;
+        }
+        &_wrap {
+            margin-top: 5px;
+            border-top: 1px solid #bfbfbf;
+            &-box {
+                margin-top: 10px;
+            }
+        }
+    }
+    .promo {
+        display: none;
+    }
+    .footer__inner {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        &_box {
+            max-width: 210px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .card__description_time,
+    .card__description_viewing {
+        display: none;
+    }
+    .wrapper__title_type {
+        font-size: 14px;
+    }
+}
+@media (max-width: 530px) {
+    .main__form_client input[type="submit"] {
+        right: -21px;
+    }
+}
+@media (max-width: 500px) {
+    .main {
+        padding-bottom: 85px;
+    }
+    .main .card__description {
+        margin-top: 20px;
+        text-align: center;
+        &_module {
+            display: block;
+            padding: 15px;
+        }
+        &_img {
+            max-width: 300px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &_flex {
+            padding: 0;
+            display: block;
+        }
+        &_wrap {
+            padding: 0;
+            &-price {
+                text-align: right;
+            }
+        }
+        &_contents {
+            margin-right: 0;
+        }
+        &_content {
+            padding: 15px;
+            text-align: left;
+        }
+    }
+    .main__form_client input[type="submit"] {
+        max-width: 230px;
+        font-size: 13px;
+    }
+    .wrapper__title_chat {
+        font-size: 19px;
+    }
+    .footer {
+        &__messenger_icons img {
+            width: 25px;
+        }
+        &__inner_logo-text {
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width: 475px) {
+    .main__form_period {
+        &-month {
+            margin-top: 5px;
+            margin-right: 8px;
+        }
+        &-month + &-month {
+            margin-left: 0;
+        }
+    }
+}
+@media (max-width: 450px) {
+    .main__form {
+        label,
+        p,
+        input {
+            font-size: 13px;
+        }
+        &_budget-bl input[type="number"] {
+            width: 100px;
+        }
+        &_budget-bl + &_budget-bl {
+            margin-left: 20px;
+        }
+        &_client input {
+            max-width: 250px;
+        }
+    }
+    .wrapper {
+        padding: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .wrap-amount {
+        font-size: 15px;
+    }
+    .main__form_client input {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 380px) {
+    .logo {
+        font-size: 28px;
+    }
+    .main__form {
+        input {
+            padding-left: 10px;
+            max-width: 165px;
+        }
+        &_client {
+            input {
+                max-width: 180px;
+            }
+            input[type="submit"] {
+                max-width: 205px;
+                font-size: 12px;
+            }
+        }
+        &_budget-money {
+            display: block;
+        }
+        &_budget-bl + &_budget-bl {
+            margin-left: 0;
+            margin-top: 5px;
+        }
+    }
+}
+@media (max-width: 340px) {
+    .main__form {
+        label,
+        input {
+            font-size: 12px;
+        }
+        .input {
+            padding-left: 10px;
+            max-width: 165px;
+        }
+        &_client input {
+            max-width: 165px;
+        }
+        &_rent input {
+            max-width: 138px;
+        }
+    }
+}

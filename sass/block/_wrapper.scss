@@ -1,0 +1,45 @@
+.wrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 140px;
+    padding: 45px 55px 30px 33px;
+    border-radius: 10px;
+    box-shadow: 1.7px 13.9px 74.5px 1.5px rgba(0, 0, 0, 0.11);
+    background-color: #ffffff;
+    overflow: hidden;
+    &__moderator {
+        margin-top: 24px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 400;
+        color: $blaсk;
+        &_block {
+            overflow: auto;
+            height: 250px;
+            padding: 5px;
+            margin-top: 20px;
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+            &::-webkit-scrollbar-track {
+                background-color: #cdc7c7;
+                border: 1px solid transparent;
+                background-clip: content-box;
+            }
+            &::-webkit-scrollbar-thumb {
+                background: #616060;
+            }
+        }
+        &_chat {
+            font-size: 25px;
+            font-weight: 700;
+        }
+        &_type {
+            margin-top: 20px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+}
