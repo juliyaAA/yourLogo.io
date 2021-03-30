@@ -21,10 +21,13 @@ body {
     padding: 0 15px;
 }
 .logo {
-    font-size: 30px;
-    font-weight: 900;
-    a {
-      color: $orange;  
+    width: 200px;
+    min-height: 35px;
+    padding-top: 5px;
+    img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
     }
     
 }
@@ -58,4 +61,3 @@ body {
 @import "block/wrapper";
 @import "block/footer";
 @import "base/media";
-

@@ -33,6 +33,7 @@
     }
     &__messenger {
         display: flex;
+        justify-content: center;
         &_icons {
             margin-left: 27px;
             &:first-child {

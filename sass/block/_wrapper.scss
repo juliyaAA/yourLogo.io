@@ -1,7 +1,7 @@
 .wrapper {
     width: 100%;
     height: auto;
-    margin-top: 140px;
+    margin-top: 120px;
     padding: 45px 55px 30px 33px;
     border-radius: 10px;
     box-shadow: 1.7px 13.9px 74.5px 1.5px rgba(0, 0, 0, 0.11);
@@ -16,9 +16,8 @@
         color: $blaсk;
         &_block {
             overflow: auto;
-            height: 250px;
+            height: 190px;
             padding: 5px;
-            margin-top: 20px;
             &::-webkit-scrollbar {
                 width: 5px;
             }
@@ -40,6 +39,39 @@
             &:first-child {
                 margin-top: 0;
             }
+        }
+        &_group {
+            margin-top: 35px;
+            width: 100%;
+            &-chat {
+                width: 100%;
+                min-height: 80px;
+                border: 1px solid #bcafaf82;
+                border-radius: 10px;
+                padding: 15px;
+            }
+            button {
+                margin-top: 20px;
+                float: right;
+                max-width: 160px;
+                width: 100%;
+                height: 35px;
+                border: none;
+                box-shadow: 1.7px 13.9px 74.5px 1.5px rgb(0 0 0 / 11%);
+                background-color: $green;
+                border-radius: 10px;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+                color: #fff;
+                &:hover {
+                    transition: 0.3s all;
+                    background-color: $hov;
+                }
+            }
+        }
+        .wrapper-feedback {
+            margin-top: 20px;
         }
     }
 }

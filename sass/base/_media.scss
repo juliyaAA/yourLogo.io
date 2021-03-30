@@ -378,6 +378,9 @@
         display: block;
         text-align: center;
         padding: 20px;
+        .logo {
+            margin: 0 auto;
+        }
         &_box {
             max-width: 210px;
             display: block;
@@ -422,6 +425,7 @@
         }
         &_wrap {
             padding: 0;
+            text-align: left;
             &-price {
                 text-align: right;
             }
@@ -438,8 +442,19 @@
         max-width: 230px;
         font-size: 13px;
     }
-    .wrapper__title_chat {
-        font-size: 19px;
+    .wrapper {
+        padding: 20px;
+        &__title {
+            &_chat {
+                font-size: 19px;
+            }
+            &_group button {
+                margin-top: 15px;
+                max-width: 120px;
+                height: 30px;
+                font-size: 15px;
+            }
+        }
     }
     .footer {
         &__messenger_icons img {
@@ -516,6 +531,9 @@
             margin-left: 0;
             margin-top: 5px;
         }
+    }
+    .wrapper__title_group button {
+        font-size: 14px;
     }
 }
 @media (max-width: 340px) {
