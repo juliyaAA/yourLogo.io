@@ -4,7 +4,7 @@
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
 }
-html{
+html {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -29,7 +29,6 @@ body {
         width: 100%;
         margin: 0 auto;
     }
-    
 }
 .burger-menu {
     display: none;
@@ -40,9 +39,8 @@ body {
     top: 0;
     right: 0;
     img {
-        max-width: 1220px;
+        display: block;
         width: 100%;
-        height: 882px;
     }
 }
 .left {
@@ -50,6 +48,15 @@ body {
     top: 1000px;
     left: 0;
     z-index: 11;
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+.content {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 700;
 }
 .bas {
     filter: grayscale(100%);

@@ -32,7 +32,8 @@
         p {
             font-weight: 700;
         }
-        input {
+        input,
+        select {
             max-width: 189px;
             width: 100%;
             height: 35px;
@@ -55,6 +56,32 @@
             }
             .form-paragraf {
                 margin-bottom: 23px;
+            }
+            .form-menu {
+                max-width: 55px;
+                width: 100%;
+                height: 35px;
+                border-radius: 0 5px 5px 0;
+                background-color: green;
+                border: none;
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 1;
+            }
+            .form-select {
+                max-width: 189px;
+                width: 100%;
+                position: relative;
+                background-color: #fff;
+                border-radius: 5px;
+                z-index: 5;
+                select {
+                    position: relative;
+                    z-index: 10;
+                    appearance: none;
+                    background: no-repeat right 16px top 11px url(../icons/dow.svg);
+                }
             }
         }
         &_period {
@@ -116,7 +143,7 @@
             span {
                 font-weight: 400;
             }
-            input[type="submit"]  {
+            input[type="submit"] {
                 position: absolute;
                 right: 0;
                 bottom: 0;
@@ -132,7 +159,7 @@
                 text-align: center;
                 color: #ffffff;
                 &:hover {
-                    transition: .3s all;
+                    transition: 0.3s all;
                     background-color: $hov;
                 }
             }

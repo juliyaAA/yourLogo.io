@@ -43,14 +43,15 @@
         &_group {
             margin-top: 35px;
             width: 100%;
-            &-chat {
+            textarea {
                 width: 100%;
                 min-height: 80px;
                 border: 1px solid #bcafaf82;
                 border-radius: 10px;
-                padding: 15px;
+                padding: 10px;
+                resize: none;
             }
-            button {
+            input[type="submit"] {
                 margin-top: 20px;
                 float: right;
                 max-width: 160px;

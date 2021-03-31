@@ -67,7 +67,7 @@
         </div>
     </header>
     <section class="right">
-        <img src="img/red.png" alt="red">
+        <img src="icons/red.svg" alt="red">
     </section>
     <section class="main">
         <div class="light">
@@ -77,8 +77,13 @@
                         <div class="main__form_rent">
                             <div class="main__form_rent form-application form-block">
                                 <label for="application">Тип заявки</label>
-                                <input type="text" name="application" id="application" value placeholder="Аренда"
-                                    required>
+                                <div class="form-select">
+                                    <select name="application" id="application">
+                                        <option>Аренда</option>
+                                        <option>Продажа</option>
+                                    </select>
+                                    <div class="form-menu"></div>
+                                </div>
                             </div>
                             <div class="main__form_rent form-address">
                                 <div class="main__form_rent form-address_left">
@@ -236,7 +241,7 @@
                                         </div>
                                         <div class="card__description_wrap-price">
                                             <div>Цена</div>
-                                            <div class="wrap-amount">3885 &#8378;</div>
+                                            <div class="wrap-amount">3 885 &#8378;</div>
                                             <div class="wrap-collection">налоги и сборы включены</div>
                                         </div>
                                     </div>
@@ -326,7 +331,7 @@
                                         </div>
                                         <div class="card__description_wrap-price">
                                             <div>Месяцев: 10</div>
-                                            <div class="wrap-amount">3885 &#8378; в месяц</div>
+                                            <div class="wrap-amount">3 885 &#8378; в месяц</div>
                                         </div>
                                     </div>
                                 </div>
@@ -414,7 +419,7 @@
 
                                         </div>
                                         <div class="card__description_wrap-price">
-                                            <div class="wrap-amount">388500 &#8378;</div>
+                                            <div class="wrap-amount">3 885 &#8378;</div>
                                         </div>
                                     </div>
                                 </div>
@@ -503,7 +508,7 @@
                                         </div>
                                         <div class="card__description_wrap-price">
                                             <div>Цена</div>
-                                            <div class="wrap-amount">3885 &#8378;</div>
+                                            <div class="wrap-amount">3 885 &#8378;</div>
                                             <div class="wrap-collection">налоги и сборы включены</div>
                                         </div>
                                     </div>
@@ -593,7 +598,7 @@
                                         </div>
                                         <div class="card__description_wrap-price">
                                             <div>Цена</div>
-                                            <div class="wrap-amount">3885 &#8378;</div>
+                                            <div class="wrap-amount">3 885 &#8378;</div>
                                             <div class="wrap-collection">налоги и сборы включены</div>
                                         </div>
                                     </div>
@@ -707,12 +712,17 @@
                                     </div>
                                 </div>
                                 <div class="wrapper__title_group">
-                                    <div class="wrapper__title_group-chat"></div>
-                                    <button>Отправить</button>
+                                    <form action="#" method="POST">
+                                        <labe>
+                                           <textarea name="chat" row ="10" cols="40"></textarea> 
+                                        </labe>
+                                        <input type="submit" value="Отправить" name="button"></input>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="content">Данные объекты больше недоступны</div>
                     <div class="card">
                         <div class="card__occupied"></div>
                         <div class="card__description">
@@ -769,7 +779,7 @@
                                         </div>
                                         <div class="card__description_wrap-price">
                                             <div>Цена</div>
-                                            <div class="wrap-amount">3885 &#8378;</div>
+                                            <div class="wrap-amount">3 885 &#8378;</div>
                                             <div class="wrap-collection">налоги и сборы включены</div>
                                         </div>
                                     </div>
@@ -808,7 +818,7 @@
         </div>
         </div>
         <div class="left">
-            <img src="img/orange.png" alt="orange">
+            <img src="icons/red_mini.svg" alt="red">
         </div>
     </section>
     <footer class="footer">
